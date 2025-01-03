@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi - Aplikasi Simpan Pinjam</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Aplikasi" class="logo">
+        <nav>
+            <ul>
+                <li><a href="beranda.html">Beranda</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="index.html">Login</a></ html>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="mt-5">Form Transaksi</h2>
+        <form id="transaksiForm">
+            <div class="form-group">
+                <label for="namaTransaksi">Nama Transaksi</label>
+                <input type="text" class="form-control" id="namaTransaksi" required>
+            </div>
+            <div class="form-group">
+                <label for="jumlah">Jumlah</label>
+                <input type="number" class="form-control" id="jumlah" required>
+            </div>
+            <div class="form-group">
+                <label for="kategori">Kategori</label>
+                <input type="text" class="form-control" id="kategori" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Simpan</button>
+        </form>
+        <a href="daftar_transaksi.html" class="btn btn-link">Daftar Transaksi</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Aplikasi Simpan Pinjam</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
